@@ -29,5 +29,9 @@ class ViewController: UIViewController {
         completion: nil)
     }
     
+    @IBAction func sliderMoved(_ slider: UISlider) { print("The value of the slider now is \(slider.value)") }
+    
+    
+    
 }
 
