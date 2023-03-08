@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cBX-5J-jrg">
-                                <rect key="frame" x="426.66666666666669" y="197.66666666666666" width="79" height="35"/>
+                                <rect key="frame" x="426.66666666666669" y="197.66666666666666" width="78.999999999999943" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Hit Me!"/>
                                 <connections>
@@ -105,6 +105,12 @@
                             <constraint firstItem="cBX-5J-jrg" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="weQ-qq-dBJ"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="roundLabel" destination="IuH-dC-8gS" id="ZDV-o6-yi6"/>
+                        <outlet property="scoreLabel" destination="4MQ-Qz-aEd" id="Vfh-Td-hpF"/>
+                        <outlet property="slider" destination="qPB-Qs-1gB" id="fQ7-ud-NmR"/>
+                        <outlet property="targetLabel" destination="f2K-f8-fBl" id="xw3-Zl-uga"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
