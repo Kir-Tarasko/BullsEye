@@ -45,14 +45,6 @@ class ViewController: UIViewController {
         
         score += points
         
-//        if currentValue > targetValue {
-//            difference = currentValue - targetValue
-//        } else if targetValue > currentValue {
-//            difference = targetValue - currentValue
-//        } else {
-//            difference = 0
-//        }
-        
         let message = "You scored \(points) points"
         
         let alert = UIAlertController(title: "Hello, World",
