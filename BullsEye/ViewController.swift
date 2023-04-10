@@ -21,7 +21,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-//        startNewRound()
+        //        startNewRound()
         startNewGame()
     }
     
@@ -83,7 +83,6 @@ class ViewController: UIViewController {
         score = 0
         round = 0
         startNewRound()
-        
     }
 }
 
